@@ -1,4 +1,6 @@
 # News-fit-to-scrape
+Deployed Link: https://tranquil-retreat-93553.herokuapp.com/
+Git Hub Pages Link: https://ashleye37.github.io/News-fit-to-scrape/ 
 
 ## Requirements
 Whenever a user visits your site, the app should scrape stories from a news outlet of your choice and display them for the user. Each scraped article should be saved to your application database. 
