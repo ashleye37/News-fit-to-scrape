@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Scraping With Mongoose</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <div id="navbar">
+            <h1>The Stranger Scrapper</h1>
+            <a href="/scrape"><button class="btn btn-dark">Scrape Articles</button></a>
+            <a href="/notes"><button class="btn btn-dark">View All Notes</button></a>
+        </div>
+        <div id="instructions">
+            <ul>
+                <h3><li>Click "Scrape Articles" to check for new content.</li></h3>
+                <h3><li>Click on any of the articles to add, remove or update a note.</li></h3>
+              </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class = "jumbotron">
+          <div id="wrapper">
+              <h2><div>Articles:</div></h2>
+              <div id="articles"></div>
+              <div id="notes"></div>
+          </div>
+      </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
